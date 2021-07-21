@@ -16,6 +16,7 @@ function showCashAmt(){
         cashAmt.style.display = "block"
         err.style.display = "none"
     }else{
+        err.style.color = "red";
         err.innerHTML = "Incorrect bill amount"
     }
 }
