@@ -1,0 +1,39 @@
+:root{
+    --neon: #cbf83e;
+    --gray: #aba8a9;
+    --whiteish: #d8dfee;
+}
+
+
+.section{
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--gray);
+    color:  #ffffff;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    margin: 1rem auto 0;
+    background-color:var(--whiteish);
+    color: #ffffff;
+    font-weight: bold;
+}
+h1,p{
+    color: #ffffff;
+}
+h2{
+    color: var(--neon);
+}
+
+.cashAmt{
+    display: none;
+}
+
