@@ -37,3 +37,24 @@ h2{
     display: none;
 }
 
+.noOfNotes{
+    background-color:white;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+    border: 2px solid;
+}
+
+th,td{
+    word-wrap: break-word;
+}
+th{
+    background-color: var(--neon);
+}
+
+.notesValue{
+    background-color: var(--neon);
+
+}
